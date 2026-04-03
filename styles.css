@@ -370,3 +370,130 @@ img {
   font-size: 13px;
   line-height: 1.5;
 }
+/* === PRICING === */
+.pricing-section {
+  background: linear-gradient(135deg, var(--navy-mid) 0%, var(--navy) 100%);
+  text-align: center;
+}
+
+.price-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  border-radius: 14px;
+  padding: 28px 20px;
+  margin-bottom: 14px;
+}
+
+.price-main {
+  color: var(--gold);
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.price-unit {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.price-note {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.deposit-box {
+  background: rgba(245, 158, 11, 0.08);
+  border: 1px solid rgba(245, 158, 11, 0.2);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 28px;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.deposit-icon {
+  font-size: 22px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.deposit-text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.deposit-text strong {
+  color: var(--white);
+}
+
+.pricing-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--gold);
+  color: var(--navy);
+  padding: 15px 32px;
+  border-radius: 8px;
+  font-weight: 900;
+  font-size: 16px;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.pricing-cta:hover {
+  background: var(--gold-hover);
+  transform: translateY(-1px);
+}
+
+/* === CONTACT === */
+.contact-section {
+  background: var(--bg-light);
+}
+
+.contact-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--white);
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.contact-link--phone { border-left: 4px solid var(--blue-ph); }
+.contact-link--wa    { border-left: 4px solid var(--green-wa); }
+.contact-link--loc   { border-left: 4px solid var(--gold); }
+
+.contact-icon {
+  font-size: 22px;
+  flex-shrink: 0;
+}
+
+.contact-label {
+  display: block;
+  font-size: 10px;
+  color: #94a3b8;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+}
+
+.contact-value {
+  display: block;
+  font-size: 15px;
+  color: var(--navy);
+  font-weight: 800;
+}
