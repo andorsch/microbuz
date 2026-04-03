@@ -1,0 +1,86 @@
+/* === RESET === */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === DESIGN TOKENS === */
+:root {
+  --navy:       #0f1c3f;
+  --navy-mid:   #1a3c6e;
+  --navy-light: #1e4d99;
+  --navy-dark:  #1a2744;
+  --navy-deep:  #0a1225;
+  --gold:       #f59e0b;
+  --gold-hover: #d97706;
+  --orange:     #f97316;
+  --green-wa:   #25d366;
+  --blue-ph:    #2563eb;
+  --text-muted: #64748b;
+  --bg-light:   #f8fafc;
+  --bg-border:  #e2e8f0;
+  --white:      #ffffff;
+}
+
+/* === BASE === */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  color: var(--navy);
+  background: var(--white);
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* === UTILITIES === */
+.section {
+  padding: 48px 24px;
+}
+
+.section-label {
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.section-title {
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.section-title--light {
+  color: var(--white);
+}
+
+.section-title--dark {
+  color: var(--navy);
+}
+
+/* Tablet and up */
+@media (min-width: 640px) {
+  .section {
+    padding: 64px 48px;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+}
