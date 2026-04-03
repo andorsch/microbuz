@@ -1,27 +1,20 @@
 # Microbuz Cluj
 
-> Site static: închiriere microbuz Ford Transit 8+1 locuri în Cluj-Napoca (vehicul fără șofer). Operator: SCHVARCZ ELECTRIC SOLUTIONS SRL.
+> Inchiriere microbuz Ford Transit 8+1 locuri fara sofer in Cluj-Napoca. Operator: SCHVARCZ ELECTRIC SOLUTIONS SRL. Tarif de la 350 RON + TVA/zi; depozit garantie indicativ 300-500 EUR.
 
-## Fapte scurte
+## Servicii principale
 
-- Serviciu: închiriere microbuz 8+1, fără șofer; nu include transport cu conducător auto.
-- Ridicare vehicul: Str. Ioan Budai-Deleanu nr. 64, Cluj-Napoca, România.
-- Telefon / WhatsApp: +40 746 063 301.
-- Tarif orientativ: 350 RON + TVA / zi; depozit garanție indicativ 300–500 €. Peste 10 zile — preț negociabil la contact.
-- Vehicul: dotări (climatizare, bagaje, USB etc.), tracker GPS; detalii pe site.
+- [Cum inchiriezi](https://inchirieremicrobuzcluj.ro/cum-inchiriezi.html): Procesul complet de inchiriere in 6 pasi, de la contact pana la predarea vehiculului.
+- [Tarife](https://inchirieremicrobuzcluj.ro/pret.html): Tariful zilnic, depozit de garantie, modalitati de plata, reduceri pentru inchirieri mai lungi de 10 zile.
+- [Intrebari frecvente](https://inchirieremicrobuzcluj.ro/intrebari-frecvente.html): Sofer, zona de ridicare, acte necesare, depozit, rezervare, GPS.
+- [Despre noi](https://inchirieremicrobuzcluj.ro/despre-noi.html): Echipa (Andor si Szilard), contact direct, fara intermediari.
 
-## URL-uri utile
+## Vehicul
 
-- Pagina principală: https://inchirieremicrobuzcluj.ro/
+Ford Transit 8+1 locuri (8 pasageri + sofer). Dotari: climatizare, tracker GPS, USB, asigurare inclusa. Ridicare la Str. Ioan Budai-Deleanu nr. 64, Cluj-Napoca, Romania.
+
+## Contact
+
+- Telefon / WhatsApp: +40746063301
+- Adresa: Str. Ioan Budai-Deleanu nr. 64, Cluj-Napoca, 400086, Romania
 - Homepage (English): https://inchirieremicrobuzcluj.ro/index-en.html
-- Cum închiriezi (pași): https://inchirieremicrobuzcluj.ro/cum-inchiriezi.html
-- Tarife (detaliat): https://inchirieremicrobuzcluj.ro/pret.html
-- Despre noi (echipă, microbuz, biciclete, cort plafon): https://inchirieremicrobuzcluj.ro/despre-noi.html
-- Întrebări frecvente: https://inchirieremicrobuzcluj.ro/intrebari-frecvente.html
-- Confidențialitate: https://inchirieremicrobuzcluj.ro/confidentialitate.html
-- Politica cookies: https://inchirieremicrobuzcluj.ro/politica-cookies.html
-- Termeni: https://inchirieremicrobuzcluj.ro/termeni.html
-
-## Sitemap
-
-- https://inchirieremicrobuzcluj.ro/sitemap.xml
