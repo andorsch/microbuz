@@ -1,0 +1,79 @@
+/* === Pagina Despre noi === */
+.about-lead {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+}
+
+.about-highlight {
+  margin: 1.5rem 0;
+  padding: 18px 18px 20px;
+  background: var(--bg-light);
+  border-radius: 12px;
+  border: 1px solid var(--bg-border);
+  border-left: 4px solid var(--gold);
+}
+
+.about-highlight h2 {
+  margin-top: 0;
+}
+
+.about-highlight p:last-child {
+  margin-bottom: 0;
+}
+
+.about-team {
+  list-style: none;
+  margin: 1.25rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 28px;
+}
+
+.about-person {
+  text-align: center;
+}
+
+.about-person__img-wrap {
+  margin: 0 auto 12px;
+  max-width: 260px;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--bg-border);
+  box-shadow: 0 6px 24px rgba(15, 28, 63, 0.08);
+  background: var(--bg-light);
+}
+
+.about-person__img-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about-person__name {
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--navy);
+  margin: 0 0 6px;
+  line-height: 1.25;
+}
+
+.about-person__role {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (min-width: 640px) {
+  .about-team {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px 32px;
+    align-items: start;
+  }
+
+  .about-person__img-wrap {
+    max-width: none;
+  }
+}
