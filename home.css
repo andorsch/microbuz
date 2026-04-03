@@ -29,6 +29,36 @@
   }
 }
 
+/* === HEADER (home pages): language + CTA === */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-lang-link {
+  color: var(--gold);
+  font-weight: 800;
+  font-size: 13px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  white-space: nowrap;
+}
+
+.header-lang-link:hover {
+  color: var(--gold-hover);
+}
+
+@media (min-width: 640px) {
+  .header-actions {
+    gap: 14px;
+  }
+
+  .header-lang-link {
+    font-size: 14px;
+  }
+}
+
 /* === HERO === */
 .hero {
   background: linear-gradient(160deg, var(--navy) 0%, var(--navy-mid) 60%, var(--navy-light) 100%);
@@ -596,6 +626,14 @@
 .guide-card__link:focus-visible {
   outline: 2px solid var(--navy);
   outline-offset: 2px;
+}
+
+.home-ro-only-note {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: -6px 0 22px;
+  max-width: 38rem;
 }
 
 /* === CONTACT === */

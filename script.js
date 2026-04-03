@@ -95,6 +95,8 @@
     var n = slides.length;
     if (n === 0) return;
 
+    var carouselLang = (document.documentElement.getAttribute('lang') || 'ro').slice(0, 2);
+
     var index = 0;
 
     function go(i) {
@@ -113,7 +115,11 @@
         dot.type = 'button';
         dot.className = 'vehicle-carousel__dot';
         dot.setAttribute('role', 'tab');
-        dot.setAttribute('aria-label', 'Imaginea ' + (jj + 1) + ' din ' + n);
+        var label =
+          carouselLang === 'en'
+            ? 'Image ' + (jj + 1) + ' of ' + n
+            : 'Imaginea ' + (jj + 1) + ' din ' + n;
+        dot.setAttribute('aria-label', label);
         dot.addEventListener('click', function () {
           go(jj);
         });

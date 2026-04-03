@@ -13,6 +13,7 @@
 ## URL-uri utile
 
 - Pagina principală: https://inchirieremicrobuzcluj.ro/
+- Homepage (English): https://inchirieremicrobuzcluj.ro/index-en.html
 - Cum închiriezi (pași): https://inchirieremicrobuzcluj.ro/cum-inchiriezi.html
 - Tarife (detaliat): https://inchirieremicrobuzcluj.ro/pret.html
 - Întrebări frecvente: https://inchirieremicrobuzcluj.ro/intrebari-frecvente.html
