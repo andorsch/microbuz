@@ -29,36 +29,6 @@
   }
 }
 
-/* === HEADER (home pages): language + CTA === */
-.header-actions {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.header-lang-link {
-  color: var(--gold);
-  font-weight: 800;
-  font-size: 13px;
-  text-decoration: underline;
-  text-underline-offset: 2px;
-  white-space: nowrap;
-}
-
-.header-lang-link:hover {
-  color: var(--gold-hover);
-}
-
-@media (min-width: 640px) {
-  .header-actions {
-    gap: 14px;
-  }
-
-  .header-lang-link {
-    font-size: 14px;
-  }
-}
-
 /* === HERO === */
 .hero {
   background: linear-gradient(160deg, var(--navy) 0%, var(--navy-mid) 60%, var(--navy-light) 100%);
