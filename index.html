@@ -45,7 +45,8 @@
   }
   </script>
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="core.css">
+  <link rel="stylesheet" href="home.css">
   <script src="script.js" defer></script>
 </head>
 <body>
@@ -233,6 +234,7 @@
         <div class="price-main">350 RON</div>
         <div class="price-unit">+ TVA / zi</div>
         <p class="price-note">Tarif de bază per zi de închiriere. Pentru perioade mai lungi sau situații speciale, contactați-ne pentru o ofertă personalizată.</p>
+        <p class="price-more"><a href="pret.html">Vezi pagina completă cu tarife, depozit și plată</a></p>
       </div>
       <div class="deposit-box">
         <span class="deposit-icon">🔐</span>
@@ -244,11 +246,30 @@
       <a href="tel:+40746063301" class="pricing-cta">📞 Cere ofertă personalizată</a>
     </section>
 
+    <!-- GHID: PAȘI + FAQ -->
+    <section class="section guide-section" id="ghid" aria-label="Ghid închiriere">
+      <p class="section-label">Ghid rapid</p>
+      <h2 class="section-title section-title--dark">Pași și întrebări</h2>
+      <div class="guide-cards">
+        <article class="guide-card">
+          <span class="guide-card__icon" aria-hidden="true">📋</span>
+          <h3 class="guide-card__title">Cum închiriezi?</h3>
+          <p class="guide-card__text">De la primul apel la predarea microbuzului: contact, documente, contract, plată, ridicare și returnare — explicate pe scurt.</p>
+          <a href="cum-inchiriezi.html" class="guide-card__link">Vezi pașii de închiriere</a>
+        </article>
+        <article class="guide-card">
+          <span class="guide-card__icon" aria-hidden="true">❓</span>
+          <h3 class="guide-card__title">Întrebări frecvente</h3>
+          <p class="guide-card__text">Șofer, adresă ridicare, depozit, tracker GPS, rezervări — răspunsuri la cele mai frecvente întrebări.</p>
+          <a href="intrebari-frecvente.html" class="guide-card__link">Deschide pagina FAQ</a>
+        </article>
+      </div>
+    </section>
+
     <!-- CONTACT -->
     <section class="section contact-section" id="contact">
       <p class="section-label">Contact</p>
       <h2 class="section-title section-title--dark">Contactează-ne</h2>
-      <p class="contact-faq-link">Informații rapide: <a href="intrebari-frecvente.html">întrebări frecvente despre închiriere</a>.</p>
       <ul class="contact-list">
         <li>
           <a href="tel:+40746063301" class="contact-link contact-link--phone">
@@ -294,6 +315,8 @@
     </address>
     <nav class="footer-nav" aria-label="Pagini legale">
       <a href="intrebari-frecvente.html">Întrebări frecvente</a>
+      <a href="cum-inchiriezi.html">Cum închiriezi</a>
+      <a href="pret.html">Tarife</a>
       <a href="confidentialitate.html">Confidențialitate</a>
       <a href="politica-cookies.html">Politica cookies</a>
       <a href="termeni.html">Termeni și condiții</a>

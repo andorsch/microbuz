@@ -1,0 +1,232 @@
+/* === CUM ÎNCHIRIEZI — flow timeline === */
+.rent-flow-page {
+  background: linear-gradient(180deg, #f0f4fc 0%, var(--white) 28%, var(--white) 100%);
+}
+
+.rent-flow-main {
+  padding-bottom: 56px;
+}
+
+.rent-flow-hero {
+  text-align: center;
+  margin-bottom: 36px;
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rent-flow-hero__label {
+  margin-bottom: 10px;
+}
+
+.rent-flow-hero__title {
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--navy);
+  line-height: 1.15;
+  margin-bottom: 12px;
+}
+
+.rent-flow-hero__lead {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+.rent-flow-jump {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.rent-flow-jump__hint {
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-subtle);
+  margin-right: 4px;
+}
+
+.rent-flow-jump a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--white);
+  border: 2px solid var(--bg-border);
+  color: var(--navy);
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: border-color 0.2s, background 0.2s, color 0.2s;
+}
+
+.rent-flow-jump a:hover {
+  border-color: var(--gold);
+  background: rgba(245, 158, 11, 0.12);
+  color: var(--navy);
+}
+
+.rent-flow {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 680px;
+  position: relative;
+}
+
+.rent-flow::before {
+  content: "";
+  position: absolute;
+  left: 27px;
+  top: 28px;
+  bottom: 28px;
+  width: 4px;
+  margin-left: -2px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, var(--gold) 0%, var(--orange) 45%, var(--gold) 100%);
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.25);
+}
+
+.rent-flow__step {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 0 18px;
+  position: relative;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  scroll-margin-top: 88px;
+  animation: rentFlowIn 0.55s ease backwards;
+  animation-delay: calc(0.07s * (var(--step, 1) - 1));
+}
+
+.rent-flow__step--last {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.rent-flow__marker {
+  position: relative;
+  z-index: 2;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, var(--gold), var(--orange));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(245, 158, 11, 0.45);
+  border: 3px solid var(--white);
+}
+
+.rent-flow__marker span {
+  font-size: 20px;
+  font-weight: 900;
+  color: var(--navy);
+  line-height: 1;
+}
+
+.rent-flow__card {
+  background: var(--white);
+  border-radius: 14px;
+  padding: 18px 18px 20px;
+  border: 1px solid var(--bg-border);
+  box-shadow: 0 4px 24px rgba(15, 28, 63, 0.06);
+  margin-top: 4px;
+}
+
+.rent-flow__name {
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--navy);
+  margin-bottom: 8px;
+  line-height: 1.25;
+}
+
+.rent-flow__text {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.rent-flow__text a {
+  color: var(--navy);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.rent-flow__text a:hover {
+  color: var(--gold-hover);
+}
+
+.rent-flow__text strong {
+  color: var(--navy);
+  font-weight: 800;
+}
+
+.rent-flow__cta-wrap {
+  margin: 16px 0 0;
+}
+
+.rent-flow__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--gold);
+  color: var(--navy);
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-weight: 900;
+  font-size: 15px;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.rent-flow__cta:hover {
+  background: var(--gold-hover);
+  transform: translateY(-1px);
+}
+
+.rent-flow-note {
+  margin-top: 32px;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes rentFlowIn {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rent-flow__step {
+    animation: none;
+  }
+}
+
+/* === RESPONSIVE — desktop (1024px+) — flow === */
+@media (min-width: 1024px) {
+  .rent-flow {
+    max-width: 720px;
+  }
+
+  .rent-flow-hero__title {
+    font-size: 34px;
+  }
+}
