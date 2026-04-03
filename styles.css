@@ -497,3 +497,64 @@ img {
   color: var(--navy);
   font-weight: 800;
 }
+
+/* === FOOTER === */
+.site-footer {
+  background: var(--navy-deep);
+  padding: 32px 24px;
+  text-align: center;
+}
+
+.footer-logo {
+  color: var(--gold);
+  font-weight: 900;
+  font-size: 17px;
+  margin-bottom: 16px;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  margin: 0 0 16px;
+}
+
+.footer-company {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  line-height: 1.8;
+  margin-bottom: 14px;
+}
+
+.footer-company strong {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 13px;
+}
+
+.footer-copy {
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 11px;
+}
+
+/* === WHATSAPP FLOAT === */
+.wa-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 56px;
+  height: 56px;
+  background: var(--green-wa);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.45);
+  z-index: 999;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.wa-float:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 28px rgba(37, 211, 102, 0.6);
+}
