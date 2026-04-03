@@ -209,6 +209,36 @@ a.site-logo:hover {
   letter-spacing: 1px;
 }
 
+.seo-answer {
+  background: var(--bg-light);
+  padding: 22px 24px;
+  border-bottom: 1px solid var(--bg-border);
+}
+
+.seo-answer__text {
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text-muted);
+}
+
+.seo-answer__text strong {
+  color: var(--navy);
+  font-weight: 800;
+}
+
+.seo-answer__text a {
+  color: var(--navy);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.seo-answer__text a:hover {
+  color: var(--gold-hover);
+}
+
 @media (min-width: 640px) {
   .hero-title {
     font-size: 42px;
@@ -358,6 +388,12 @@ a.site-logo:hover {
   align-items: center;
   justify-content: center;
   background: var(--navy-mid);
+}
+
+.vehicle-carousel__slide picture {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .vehicle-carousel__slide img {

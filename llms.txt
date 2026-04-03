@@ -1,0 +1,23 @@
+# Microbuz Cluj
+
+> Site static: închiriere microbuz Ford Transit 8+1 locuri în Cluj-Napoca (vehicul fără șofer). Operator: SCHVARCZ ELECTRIC SOLUTIONS SRL.
+
+## Fapte scurte
+
+- Serviciu: închiriere microbuz 8+1, fără șofer; nu include transport cu conducător auto.
+- Ridicare vehicul: Str. Ioan Budai-Deleanu nr. 64, Cluj-Napoca, România.
+- Telefon / WhatsApp: +40 746 063 301.
+- Tarif orientativ: 350 RON + TVA / zi; depozit garanție indicativ 300–500 €.
+- Vehicul: dotări (climatizare, bagaje, USB etc.), tracker GPS; detalii pe site.
+
+## URL-uri utile
+
+- Pagina principală: https://inchirieremicrobuzcluj.ro/
+- Întrebări frecvente: https://inchirieremicrobuzcluj.ro/intrebari-frecvente.html
+- Confidențialitate: https://inchirieremicrobuzcluj.ro/confidentialitate.html
+- Politica cookies: https://inchirieremicrobuzcluj.ro/politica-cookies.html
+- Termeni: https://inchirieremicrobuzcluj.ro/termeni.html
+
+## Sitemap
+
+- https://inchirieremicrobuzcluj.ro/sitemap.xml
