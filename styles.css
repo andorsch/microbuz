@@ -461,6 +461,28 @@ a.site-logo:hover {
   font-weight: 600;
 }
 
+/* Full-width row: 2 cols on narrow screens, 3 cols from tablet up */
+.vf-item--gps-span {
+  grid-column: 1 / -1;
+  justify-content: center;
+  gap: 12px;
+}
+
+.vehicle-gps-note {
+  margin-top: 24px;
+  padding: 14px 16px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  border-left: 4px solid var(--gold);
+  font-size: 13px;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.vehicle-gps-note strong {
+  color: rgba(255, 255, 255, 0.95);
+}
+
 /* === WHY US === */
 .why-section {
   background: var(--white);
@@ -588,6 +610,24 @@ a.site-logo:hover {
 /* === CONTACT === */
 .contact-section {
   background: var(--bg-light);
+}
+
+.contact-faq-link {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.contact-faq-link a {
+  color: var(--navy);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.contact-faq-link a:hover {
+  color: var(--gold-hover);
 }
 
 .contact-list {
