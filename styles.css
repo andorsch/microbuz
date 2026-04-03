@@ -18,6 +18,7 @@
   --green-wa:   #25d366;
   --blue-ph:    #2563eb;
   --text-muted: #64748b;
+  --text-subtle: #94a3b8;
   --bg-light:   #f8fafc;
   --bg-border:  #e2e8f0;
   --white:      #ffffff;
@@ -484,7 +485,7 @@ img {
 .contact-label {
   display: block;
   font-size: 10px;
-  color: #94a3b8;
+  color: var(--text-subtle);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
