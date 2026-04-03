@@ -558,3 +558,67 @@ img {
   transform: scale(1.08);
   box-shadow: 0 6px 28px rgba(37, 211, 102, 0.6);
 }
+
+/* === RESPONSIVE — tablet and up (640px+) === */
+@media (min-width: 640px) {
+  .site-header {
+    padding: 12px 40px;
+  }
+
+  .site-logo {
+    font-size: 18px;
+  }
+
+  .vehicle-features {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .svc-list {
+    gap: 18px;
+  }
+
+  .price-main {
+    font-size: 52px;
+  }
+}
+
+/* === RESPONSIVE — desktop (1024px+) === */
+@media (min-width: 1024px) {
+  .hero {
+    padding: 80px 48px 72px;
+  }
+
+  .hero-title {
+    font-size: 52px;
+  }
+
+  .section {
+    padding: 72px 80px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .vehicle-section,
+  .pricing-section,
+  .site-footer {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .svc-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .why-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .contact-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
