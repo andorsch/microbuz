@@ -235,6 +235,7 @@
 
 .vehicle-carousel__viewport {
   overflow: hidden;
+  width: 100%;
   aspect-ratio: 16 / 10;
   max-height: min(56vh, 420px);
 }
